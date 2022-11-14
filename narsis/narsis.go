@@ -1,9 +1,9 @@
-package spe_test
+package narsis
 
 import "fmt"
 
-func narsis() bool {
-	var number, tempNumber, remainder int
+func narsis(number int) bool {
+	var tempNumber, remainder int
 	var result int = 0
 	fmt.Scan(&number)
 
